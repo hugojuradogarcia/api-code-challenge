@@ -6,15 +6,23 @@
     "description": "RESTful - CloudAPPi",
     "contact": {
       "name": "Hugo Jurado García",
-      "url": "",
+      "url": "https://github.com/hugojuradogarcia",
       "email": "hugojuradogarcia@gmail.com"
     }
   },
-  "host": "localhost:3000",
-  "basePath": "/api/v1",
+  "servers": [
+    {
+      "url": "http://localhost:3000/api/v1/",
+      "description": "Local server"
+    },
+    {
+      "url": "http://18.224.108.206:3000/api/v1/",
+      "description": "Testing server"
+    }
+  ],
   "tags": [
     {
-      "name": "Users",
+      "name": "CRUD operations",
       "description": "API for users in the system"
     }
   ],
