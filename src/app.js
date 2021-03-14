@@ -16,7 +16,7 @@ app.use(
 );
 
 // Swagger
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(openApiDocumentation));
+app.use('/mmi-codechallenge', swaggerUi.serve, swaggerUi.setup(openApiDocumentation));
 
 // Initialize routes
 const userRoutes = require('./routes/user.route');

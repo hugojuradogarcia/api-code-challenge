@@ -1,6 +1,6 @@
 const { Pool } = require('pg');
 const pool = new Pool({
-    host: 'localhost',
+    host: 'cloudappi-db.c8mhytthxqqc.us-east-2.rds.amazonaws.com',
     user: 'postgres',
     password: 'password',
     database: 'cloudappi',
