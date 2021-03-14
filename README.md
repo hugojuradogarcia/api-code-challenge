@@ -33,11 +33,10 @@ $ npm run test
 ```
 
 ## Script to generate the database
-```
-https://github.com/hugojuradogarcia/api-code-challenge/blob/dev/src/schemas/database.sql
-```
+* [Script](https://github.com/hugojuradogarcia/api-code-challenge/blob/master/src/schemas/database.sql)
+
 ## Collection Postman
-* [Swagger](http://18.224.108.206/mmi-codechallenge)
+* [Swagger](http://18.224.108.206:3000/mmi-codechallenge)
 
 ## Collection Postman
 * [Api Code Challenge - Collection](https://www.getpostman.com/collections/40e5ef43fe2ebc9dbff8)
